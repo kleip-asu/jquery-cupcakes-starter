@@ -74,7 +74,7 @@ function displayCupcakes(data){
     }
 
         // add content to page
-    $("cupcakes").html(string);
+    $("#cupcakes").html(string);
 }
 
 // helper function for displaying the filtered results - called on change of select drop down
